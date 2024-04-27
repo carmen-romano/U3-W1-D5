@@ -1,0 +1,83 @@
+#principale .nav-link.disabled,
+#principale .nav-link {
+  color: #005ab5;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#principale,
+#principale {
+  background-color: #f8f9fa;
+  max-width: 78%;
+}
+
+#principale {
+  margin-left: auto;
+  margin-right: auto;
+}
+#principale .row {
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+#principale .row,
+#principale #principale .row h3,
+#show-titles {
+  border-bottom: 1px solid rgba(131, 131, 131, 0.485);
+}
+
+#maturity-ratings,
+#autoplay {
+  border-top: 1px solid rgba(153, 153, 153, 0.485);
+  p {
+    margin-top: 10px;
+  }
+}
+
+#principale .btn-outline-secondary {
+  --bs-btn-color: #6b6b6b;
+}
+#principale .form-check-input:checked {
+  background-color: #005ab5;
+  border-color: #137d7d;
+}
+#btn-edit {
+  font-size: 0.9em;
+  --bs-btn-color: #6c757d;
+}
+#principale .btn-secondary {
+  --bs-btn-color: #040404;
+  --bs-btn-bg: #dededec6;
+  font-size: 1.1em;
+  border: 1px solid #dadada;
+}
+
+#btn-group {
+  display: flex;
+  margin-bottom: 40px;
+}
+#btn-group button:hover {
+  background-color: white;
+  color: black;
+}
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #040404;
+}
+#principale .settings {
+  font-size: 2.5em;
+  border-bottom: 1px solid #dadada;
+}
+#membership-billing p,
+.color {
+  color: #6b6b6b;
+}
+#principale .color {
+  margin: 0;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+  #principale {
+    text-align: center;
+  }
+}

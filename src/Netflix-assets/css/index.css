@@ -1,0 +1,73 @@
+#card header li a {
+  color: white;
+}
+#card header .container {
+  font-size: 0.9em;
+}
+
+#card .bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgb(5 5 5) !important;
+}
+#card {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 90%;
+}
+#card .w-max-100 {
+  width: 100%;
+  cursor: pointer;
+}
+#card img {
+  transition: transform 0.3s ease;
+}
+
+#card img:hover {
+  transform: scale(1.1);
+}
+
+#card .navbar-toggler {
+  border: var(--bs-border-width) solid rgb(255, 255, 255);
+}
+
+#card .row {
+  --bs-gutter-x: 0.2rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+#card .icon i {
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #eeeeeea5;
+  color: #d9d9d9a5;
+  cursor: pointer;
+}
+#card main img:hover {
+  z-index: 0.2;
+}
+#card .w-max-footer {
+  font-size: 0.9em;
+  max-width: 70%;
+  color: #696969;
+  padding: 4em;
+}
+
+#card footer a {
+  color: #626262;
+  text-decoration: none;
+}
+#card .icon-group {
+  color: rgb(183, 183, 183);
+}
+#card .btn-footer {
+  background-color: transparent;
+  border: 1px solid #b7b7b7;
+}
+#btn-footer:hover {
+  background-color: white !important;
+  color: rgb(0, 0, 0) !important;
+}
